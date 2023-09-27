@@ -30,7 +30,10 @@ pip install -r requirements.txt
 <h4>4 - Create Your .env</h4>
 In order to run the application, you need to set up a .env file with the following configuration:
 
+Activate the telegram file and follow the link to read USER_ID
 ```
+BOT_ID=...
+USER_ID=...
 USER_EMAIL=example@gmail.com
 USER_PASSWORD=password
 API_KEY=CAP....
@@ -55,4 +58,5 @@ TypeError: '<' not supported between instances of 'str' and 'int</pre>
 <p>with this code:</p>
 <pre class="lang-py s-code-block"><code class="hljs language-python"><span class="hljs-keyword">if</span> <span class="hljs-built_in">tuple</span>(<span class="hljs-built_in">map</span>(<span class="hljs-built_in">int</span>, PIL__version__.split(<span class="hljs-string">"."</span>))) &lt; (<span class="hljs-number">6</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>):
 </code></pre>
+
 </details>
